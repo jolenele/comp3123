@@ -1,7 +1,5 @@
 const fs = require('fs')
 
-const path = require('path');
-
 const dicrectory = __dirname;
 if( !fs.existsSync(dicrectory)){
     fs.mkdirSync(dicrectory);
